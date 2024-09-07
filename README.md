@@ -1,6 +1,6 @@
 # KODLAMA.IO-DAY-6
 
-
+```sql
 SELECT 
     P.ProductName AS 'Ürün Adı', 
     SUM(OD.UnitPrice * OD.Quantity) AS 'Kazanılan Toplam'
